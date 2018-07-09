@@ -1,0 +1,29 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image: url(../images/black.jpg);
+  	background-repeat: no-repeat;
+  	-webkit-background-size:cover;
+  	-moz-background-size:cover;
+  	-o-background-size:cover;
+  	background-position: center;;
+  	background-attachment: fixed;
+  }
+  h1{
+  	color: #000000;
+  	font-family: Nunito;
+  	font-weight: 900;
+  }
+  header{
+  	text-align: center;
+  }
+  .box-image{
+  	border:1px solid #fefefe;
+  	min-height: 150px;
+  	width: 150px;
+    margin: 5px;
+    float: left;
+  }

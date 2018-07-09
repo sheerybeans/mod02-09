@@ -3,27 +3,48 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.clear:after{
+  content: "";
+  clear: both;
+  display:block;
+}
+a:link{
+  color: white;
+}
+a:visited{
+  color: yellow;
+}
 body{
-	background-image: url(../images/black.jpg);
-  	background-repeat: no-repeat;
-  	-webkit-background-size:cover;
-  	-moz-background-size:cover;
-  	-o-background-size:cover;
-  	background-position: center;;
-  	background-attachment: fixed;
-  }
-  h1{
-  	color: #000000;
-  	font-family: Nunito;
-  	font-weight: 900;
-  }
-  header{
-  	text-align: center;
-  }
-  .box-image{
-  	border:1px solid #fefefe;
-  	min-height: 150px;
-  	width: 150px;
-    margin: 5px;
-    float: left;
-  }
+  background-color: #000000;
+  font-family: "Nunito", sans-serif;
+  color: #fefefe;
+}
+nav{
+  border: 1px solid #fefefe;
+  width: 100%;
+  min-height: 50px;
+  position: fixed;
+  text-transform: uppercase;
+  padding: 14px 50px 16px 50px;
+}
+nav li{
+  float: right;
+  margin: 10px;
+  list-style-type: none;
+}
+li a{
+  text-decoration: none;
+}
+.mySlides {display:none;}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+img.mySlides {
+    width: 100%;
+}

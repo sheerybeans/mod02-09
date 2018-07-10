@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
 var myIndex = 0;
 carousel();
 
@@ -13,4 +14,6 @@ function carousel() {
     x[myIndex-1].style.display = "block";  
     setTimeout(carousel, 5000); 
 }
+const observer = lozad(); 
+observer.observe();
 });
